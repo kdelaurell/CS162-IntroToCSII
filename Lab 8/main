@@ -1,0 +1,23 @@
+/************************************************
+ * Author: Kyle De Laurell
+ * Date: 2/22/16
+ * Description: main source file
+ ************************************************/
+#include "Queue.hpp"
+#include "QueueNode.hpp"
+#include <iostream>
+using std::cout;
+using std::endl;
+
+int main(){
+  Queue stack;
+
+  stack.addBack(1);
+  stack.addBack(2);
+  stack.addBack(3);
+
+
+  return 0;
+
+
+}
